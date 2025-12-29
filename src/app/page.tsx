@@ -1,8 +1,8 @@
 "use client";
-import { useTimer } from "./hooks/useTimer";
-import { useGameLogic } from "./hooks/useGameLogic";
-import { BoardComponent } from "./components/Board";
-import { HeaderComponent } from "./components/Header";
+import { useTimer } from "../hooks/useTimer";
+import { useGameLogic } from "../hooks/useGameLogic";
+import { BoardComponent } from "../components/Board";
+import { HeaderComponent } from "../components/Header";
 
 export default function Demo() {
   // ロジックはHooksから呼び出すだけ
